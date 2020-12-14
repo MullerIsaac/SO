@@ -44,6 +44,7 @@ int main(int narg, char *argc[]) {
     printf("\n");
   }
   else{
+    sleep(5);
     printf("Sequência do pai: ");
     for(j=j; j<=y; j++){
       printf("%d ", fib(j));
