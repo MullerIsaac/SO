@@ -44,6 +44,8 @@ int main(int narg, char *argc[]) {
       }
       printf("\n");
     }else{
+      sleep(5);
+      wait(NULL);
       for(j=j;j<=y; j++){
         printf("%d ", fib(j));
       }
